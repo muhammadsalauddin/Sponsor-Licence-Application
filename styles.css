@@ -393,6 +393,11 @@ textarea:focus-visible {
   }
 }
 
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
 @media print {
   body {
     padding-bottom: 0;
@@ -433,5 +438,9 @@ textarea:focus-visible {
   a {
     color: black !important;
     text-decoration: none;
+  }
+
+  button {
+    appearance: none;
   }
 }

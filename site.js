@@ -42,3 +42,9 @@ if ('IntersectionObserver' in window && revealNodes.length) {
 document.querySelectorAll('[data-year]').forEach((node) => {
   node.textContent = String(new Date().getFullYear());
 });
+
+document.querySelectorAll('[data-print-page]').forEach((button) => {
+  button.addEventListener('click', () => {
+    window.print();
+  });
+});

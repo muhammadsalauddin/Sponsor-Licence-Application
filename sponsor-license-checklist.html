@@ -36,7 +36,7 @@
     <header class="screen-only sticky top-0 z-50 border-b border-slate-200/70 bg-[rgba(255,253,250,0.84)] backdrop-blur-xl">
       <div class="site-shell flex items-center justify-between py-4">
         <a class="flex items-center gap-3" href="sponsor-license.html" aria-label="Northgate Sponsor Advisory home">
-          <span class="grid h-11 w-11 place-items-center rounded-full bg-navy text-sm font-extrabold tracking-[0.18em] text-white shadow-lg shadow-navy/15">NS</span>
+          <span class="grid h-11 w-11 place-items-center rounded-full bg-navy text-sm font-extrabold tracking-[0.18em] text-white shadow-lg">NS</span>
           <div>
             <p class="text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-slate-500">UK employer support</p>
             <p class="text-sm font-semibold text-slate-900">Northgate Sponsor Advisory</p>
@@ -49,6 +49,7 @@
           <a href="sponsor-license-checklist.html" class="text-teal">Checklist</a>
           <a href="sponsor-license-process.html" class="hover:text-teal">Process</a>
           <a href="sponsor-license-compliance.html" class="hover:text-teal">Compliance</a>
+          <button type="button" class="btn-secondary text-sm" data-print-page>Print / Save PDF</button>
           <a href="sponsor-license.html#consultation" class="btn-primary text-sm">Book Consultation</a>
         </nav>
 
@@ -70,6 +71,7 @@
           <a href="sponsor-license-checklist.html">Checklist</a>
           <a href="sponsor-license-process.html">Process</a>
           <a href="sponsor-license-compliance.html">Compliance</a>
+          <button type="button" class="rounded-full border border-slate-300 px-4 py-2 text-left font-semibold text-slate-700" data-print-page>Print / Save PDF</button>
           <a href="sponsor-license.html#consultation">Book Consultation</a>
         </nav>
       </div>
@@ -84,7 +86,7 @@
             <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-700">Use this checklist to gather the evidence and internal information most employers need before a serious readiness review or application preparation process begins.</p>
             <div class="mt-8 flex flex-col gap-4 sm:flex-row">
               <a href="sponsor-license.html#consultation" class="btn-primary">Book Sponsor Licence Consultation</a>
-              <button type="button" class="btn-secondary" onclick="window.print()">Print Checklist</button>
+              <button type="button" class="btn-secondary" data-print-page>Print Checklist</button>
             </div>
             <p class="mt-4 text-sm leading-6 text-slate-500">The exact supporting evidence depends on the organisation, but this checklist covers the most common employer-side preparation areas.</p>
           </div>
@@ -207,9 +209,9 @@
       <section class="section-shell tight">
         <div class="site-shell">
           <div class="hero-panel reveal rounded-[2rem] p-8 md:p-10" data-reveal>
-            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-white/65">Next step</p>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-white/70">Next step</p>
             <h2 class="font-display mt-5 text-4xl leading-tight text-white">Want this checklist turned into a submission-ready evidence pack?</h2>
-            <p class="mt-5 max-w-3xl text-base leading-8 text-white/78">A readiness review can prioritise what matters, identify what is missing, and help your team avoid over-collecting irrelevant material.</p>
+            <p class="mt-5 max-w-3xl text-base leading-8 text-white/80">A readiness review can prioritise what matters, identify what is missing, and help your team avoid over-collecting irrelevant material.</p>
             <div class="mt-8 flex flex-col gap-4 sm:flex-row">
               <a href="sponsor-license.html#consultation" class="btn-primary">Speak With a Sponsor Licence Expert</a>
               <a href="sponsor-license-process.html" class="btn-secondary border-white/20 bg-white/10 text-white">See the full process</a>
@@ -229,7 +231,7 @@
     <div class="mobile-cta screen-only">
       <div class="site-shell flex items-center gap-3">
         <a href="sponsor-license.html#consultation" class="btn-primary flex-1">Book Consultation</a>
-        <button type="button" class="btn-secondary flex-1" onclick="window.print()">Print</button>
+        <button type="button" class="btn-secondary flex-1" data-print-page>Print</button>
       </div>
     </div>
 
